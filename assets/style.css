@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    align-items: flex-start;
+    background-color: white;
+    border: 1px none;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.overlap-group-container {
+    background-image: url('img/bg.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.overlap-group4 {
+    left: 70px;
+    position: absolute;
+    top: 70px;
+}
+
+/* tiang */
+.tiang_atas {
+    background-color: #2c3694;
+    box-shadow: 0px 4px 4px #0000000d;
+    height: 42px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    width: 1050px;
+    z-index: 6;
+}
+
+/* tiang */
+.atas_kiri {
+    background-color: #4746B1;
+    height: 42px;
+    left: 1054px;
+    position: absolute;
+    top: 19px;
+    width: 92px;
+    transform: skewY(18deg);
+    z-index: 5;
+}
+
+/* tiang */
+.tiang2 {
+    background-color: #393794;
+    height: 456px;
+    left: 1084px;
+    position: absolute;
+    top: 45px;
+    width: 61px;
+    transform: skewY(-20deg);
+    box-shadow: 0px 4px 4px #00000040;
+    z-index: 2;
+}
+
+/* tiang */
+.tiang_samping2 {
+    background-color: #302B84;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 457px;
+    left: 1062px;
+    position: absolute;
+    top: 55px;
+    width: 22px;
+    z-index: 2;
+}
+
+.tiang_atas_bawah {
+    background-color: #18186a;
+    height: 30px;
+    left: 50px;
+    position: absolute;
+    top: 45px;
+    width: 1050px;
+    transform: skewX(72deg);
+    z-index: 1;
+}
+
+/* tiang */
+.tiang1 {
+    background-color: #2c3694;
+    height: 438px;
+    left: 4px;
+    position: absolute;
+    top: 41px;
+    width: 66px;
+    z-index: 4;
+}
+
+/* tiang */
+.tiang_samping1 {
+    background-color: #2E3192;
+    height: 433px;
+    left: 70px;
+    position: absolute;
+    top: 42px;
+    width: 22px;
+    z-index: 4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: skewY(-20deg);
+}
+
+.pintu {
+    background-color: #D2DCEF;
+    transform: perspective(500px) skewY(7deg) rotateY(40deg);
+    height: 404px;
+    left: 80px;
+    position: absolute;
+    top: 50px;
+    width: 184px;
+    z-index: 2;
+}
+
+/* tombol profil */
+.rectangle {
+    background-color: #FFD300;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 36px;
+    left: 104px;
+    cursor: pointer;
+    position: absolute;
+    top: 162px;
+    width: 120px;
+    z-index: 6;
+    text-decoration: none;
+    box-shadow: 0 5px #cecece;
+
+}
+
+.rectangle:hover {
+    background-color: #f7d61d
+}
+
+.rectangle:active {
+    background-color: #f7d61d;
+    box-shadow: 0 1px #cecece;
+    transform: translateY(4px);
+}
+
+/* tombol Career */
+.rectangle1 {
+    background-color: #FFD300;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 36px;
+    left: 104px;
+    cursor: pointer;
+    position: absolute;
+    top: 206px;
+    width: 120px;
+    z-index: 6;
+    text-decoration: none;
+    box-shadow: 0 5px #cecece;
+
+}
+
+.rectangle1:hover {
+    background-color: #f7d61d
+}
+
+.rectangle1:active {
+    background-color: #f7d61d;
+    box-shadow: 0 1px #cecece;
+    transform: translateY(4px);
+}
+
+/* tombol Apply */
+.rectangle2 {
+    background-color: #FFD300;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 36px;
+    left: 104px;
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+    width: 120px;
+    z-index: 6;
+    text-decoration: none;
+    box-shadow: 0 5px #cecece;
+
+}
+
+.rectangle2:hover {
+    background-color: #f7d61d
+}
+
+.rectangle2:active {
+    background-color: #f7d61d;
+    box-shadow: 0 1px #cecece;
+    transform: translateY(4px);
+}
+
+/* tombol Ask Us */
+.rectangle3 {
+    background-color: #FFD300;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 36px;
+    left: 104px;
+    cursor: pointer;
+    position: absolute;
+    top: 294px;
+    width: 120px;
+    z-index: 6;
+    text-decoration: none;
+    box-shadow: 0 5px #cecece;
+
+}
+
+.rectangle3:hover {
+    background-color: #f7d61d
+}
+
+.rectangle3:active {
+    background-color: #f7d61d;
+    box-shadow: 0 1px #cecece;
+    transform: translateY(4px);
+}
+
+/* end tombol */
+.dinding_layar {
+    background: linear-gradient(to right, rgba(218, 228, 244, 1), rgba(189, 195, 208, 1));
+    height: 398px;
+    left: 325px;
+    position: absolute;
+    top: 60px;
+    width: 330px;
+    transform: skewY(3deg);
+
+}
+
+/* tiang meja depan */
+.tiang_meja_depan {
+    background-color: #21217E;
+    height: 137px;
+    left: 344px;
+    position: absolute;
+    top: 353px;
+    width: 368px;
+    transform: skewY(2deg);
+    z-index: 4;
+}
+
+.tiang_meja_depan2 {
+    background-color: #21217E;
+    height: 137px;
+    left: 344px;
+    position: absolute;
+    top: 306px;
+    width: 368px;
+    z-index: 1;
+}
+
+/* end tiang meja depan */
+
+.tiang_meja_kanan {
+    background-color: #26268F;
+    height: 182px;
+    left: 712px;
+    position: absolute;
+    top: 309px;
+    width: 30px;
+    transform: skewY(-20deg);
+}
+
+/* pakai img */
+.lis_meja {
+    height: 16px;
+    left: 341px;
+    position: absolute;
+    top: 300px;
+    width: 403px;
+    z-index: 3;
+}
+
+.alas_atas_meja {
+    height: 16px;
+    left: 340px;
+    position: absolute;
+    top: 295px;
+    width: 403px;
+    z-index: 2;
+}
+
+/* end pakai img */
+
+.papan_nama_meja {
+    background-color: #D9D9D9;
+    height: 135px;
+    left: 338px;
+    position: absolute;
+    top: 318px;
+    width: 382px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.20));
+    transform: skewY(2deg);
+    z-index: 5;
+}
+
+.media-box {
+    background-color: rgba(218, 228, 244, 1);
+    height: 136px;
+    left: 370px;
+    position: absolute;
+    top: 80px;
+    width: 235px;
+    margin: 30px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/* bagian vector container */
+.vector-container {
+    height: 360px;
+    left: 878px;
+    position: absolute;
+    top: 220px;
+    width: 203px;
+}
+
+/* tiang  banner*/
+.tiang_banner {
+    background-color: #3D3BA0;
+    height: 333px;
+    width: 14px;
+    position: absolute;
+    top: 0;
+    left: 168px;
+    transform: skewY(-20deg);
+    z-index: 5;
+}
+
+.tiang_tegak {
+    background-color: #3D3BA0;
+    height: 320px;
+    width: 14px;
+    position: absolute;
+    top: -8px;
+    left: 168px;
+    z-index: 1;
+}
+
+/* end tiang banner */
+
+/* banner */
+.banner {
+    background-color: #CAD1E2;
+    height: 333px;
+    left: 25px;
+    position: absolute;
+    top: -2px;
+    width: 143px;
+    transform: skewY(3deg);
+    z-index: 1;
+}
+
+.banner_tegak {
+    background-color: #CAD1E2;
+    height: 333px;
+    left: 25px;
+    position: absolute;
+    top: -8px;
+    width: 143px;
+    z-index: 2;
+}
+
+/* end banner */
+
+.alas_banner {
+    background-color: #2B2930;
+    height: 12px;
+    width: 200px;
+    position: absolute;
+    top: 318px;
+    left: 3px;
+    transform-origin: bottom left;
+    transform: skewX(-61deg) skewY(3deg);
+}
+
+.alas_depan {
+    background-color: #4A4854;
+    height: 27px;
+    left: 4px;
+    position: absolute;
+    top: 334px;
+    width: 180px;
+    transform: skewY(3deg);
+}
+
+.alas_samping {
+    background: linear-gradient(to right, rgba(74, 72, 84, 1), rgba(2, 2, 3, 1));
+    height: 27px;
+    left: 184px;
+    position: absolute;
+    top: 333px;
+    width: 21px;
+    transform: skewY(-28deg);
+}
