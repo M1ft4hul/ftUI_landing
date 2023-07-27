@@ -32,7 +32,9 @@
             <div class="tiang_meja_kanan"></div>
             <img src="assets/img/vector-10.png" class="lis_meja">
             <img src="assets/img/vector-11.png" class="alas_atas_meja">
-            <div class="papan_nama_meja"></div>
+            <div class="papan_nama_meja">
+                <img src="assets/img/7808293.jpg">
+            </div>
             <div class="media-box">
                 <video controls width="235" height="132">
                     <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" type="video/mp4">
@@ -40,7 +42,7 @@
             </div>
         </div>
         <div class="overlap-group3">
-            <button class="left-button">
+            <button class="left-button" onclick="showPreviousSlide()">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none"
                     stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
                     <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -48,7 +50,7 @@
                 </svg>
             </button>
             <button class="rectangle4">Mainhall</button>
-            <button class="right-button">
+            <button class="right-button" onclick="showNextSlide()">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none"
                     stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -62,7 +64,17 @@
             <div class="tiang_banner">
             </div>
             <!-- banner -->
-            <div class="banner_tegak"></div>
+            <div class="banner_tegak">
+                <div id="slide1" class="slide active">
+                    <img src="assets/img/a.jpg" alt="Image 1">
+                </div>
+                <div id="slide2" class="slide">
+                    <img src="assets/img/b.jpg" alt="Image 2">
+                </div>
+                <div id="slide3" class="slide">
+                    <img src="assets/img/c.jpg" alt="Image 3">
+                </div>
+            </div>
             <div class="banner"></div>
             <div class="alas_banner"></div>
             <div class="alas_depan"></div>
@@ -70,5 +82,37 @@
         </div>
     </div>
 </body>
+
+<script>
+    let currentSlide = 1;
+    const totalSlides = 3;
+
+    function showNextSlide() {
+        currentSlide++;
+        if (currentSlide > totalSlides) {
+            currentSlide = 1;
+        }
+        updateSlideVisibility();
+    }
+
+    function showPreviousSlide() {
+        currentSlide--;
+        if (currentSlide < 1) {
+            currentSlide = totalSlides;
+        }
+        updateSlideVisibility();
+    }
+
+    function updateSlideVisibility() {
+        for (let i = 1; i <= totalSlides; i++) {
+            const slide = document.getElementById(`slide${i}`);
+            if (i === currentSlide) {
+                slide.style.display = "block";
+            } else {
+                slide.style.display = "none";
+            }
+        }
+    }
+</script>
 
 </html>

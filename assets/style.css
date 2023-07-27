@@ -419,6 +419,11 @@
     z-index: 5;
 }
 
+.papan_nama_meja img {
+    height: 135px;
+    width: 382px;
+}
+
 .media-box {
     background-color: rgba(218, 228, 244, 1);
     height: 136px;
@@ -486,6 +491,20 @@
     top: -8px;
     width: 143px;
     z-index: 2;
+}
+
+.banner_tegak img {
+    height: 333px;
+    width: 143px;
+    transform: skewY(1deg);
+}
+
+.banner_tegak .slide {
+    display: none;
+}
+
+.banner_tegak .active {
+    display: block;
 }
 
 /* end banner */
