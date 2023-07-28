@@ -26,15 +26,15 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 706px;
+    height: 100%;
     position: relative;
-    width: 1400px;
+    width: 100%;
 }
 
 .overlap-group4 {
     left: 70px;
     position: absolute;
-    top: 120px;
+    top: 21px;
 }
 
 /* tiang */
@@ -251,7 +251,7 @@
     min-width: 86px;
     padding: 5px 19px;
     position: absolute;
-    top: 180px;
+    top: 81px;
     height: 360px;
 }
 
@@ -443,7 +443,7 @@
     height: 360px;
     left: 890px;
     position: absolute;
-    top: 273px;
+    top: 174px;
     width: 203px;
 }
 
@@ -525,7 +525,7 @@
     height: 27px;
     left: 4px;
     position: absolute;
-    top: 335px;
+    top: 334px;
     width: 180px;
     transform: skewY(3deg);
 }
@@ -535,7 +535,7 @@
     height: 27px;
     left: 184px;
     position: absolute;
-    top: 334px;
+    top: 333px;
     width: 21px;
     transform: skewY(-28deg);
 }
