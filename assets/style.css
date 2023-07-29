@@ -74,6 +74,7 @@
 .alas_atas_meja,
 .papan_nama_meja,
 .media-box {
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
