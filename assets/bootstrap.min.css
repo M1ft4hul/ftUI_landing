@@ -1034,6 +1034,100 @@ progress {
     transform: translateY(4px);
 }
 
+.vector-container {
+    height: 360px;
+    position: absolute;
+    top: 174px;
+    width: 203px;
+}
+
+.tiang_banner {
+    background-color: #3D3BA0;
+    height: 333px;
+    width: 14px;
+    position: absolute;
+    top: 0;
+    left: 978px;
+    transform: skewY(-20deg);
+    z-index: 5;
+}
+
+.tiang_tegak {
+    background-color: #3D3BA0;
+    height: 320px;
+    width: 14px;
+    position: absolute;
+    top: -8px;
+    left: 978px;
+    z-index: 4;
+}
+
+.banner {
+    background-color: #CAD1E2;
+    height: 333px;
+    left: 837px;
+    position: absolute;
+    top: -2px;
+    width: 143px;
+    transform: skewY(3deg);
+    z-index: 1;
+}
+
+.banner_tegak {
+    background-color: #CAD1E2;
+    height: 333px;
+    left: 837px;
+    position: absolute;
+    top: -8px;
+    width: 143px;
+    z-index: 2;
+}
+
+.banner_tegak img {
+    height: 333px;
+    width: 143px;
+    transform: skewY(1deg);
+}
+
+.banner_tegak .slide {
+    display: none;
+}
+
+.banner_tegak .active {
+    display: block;
+}
+
+.alas_banner {
+    background-color: #2B2930;
+    height: 12px;
+    width: 200px;
+    position: absolute;
+    top: 317px;
+    left: 815px;
+    transform-origin: bottom left;
+    transform: skewX(-61deg) skewY(3deg);
+}
+
+.alas_depan {
+    background-color: #4A4854;
+    height: 27px;
+    left: 815px;
+    position: absolute;
+    top: 334px;
+    width: 180px;
+    transform: skewY(3deg);
+}
+
+.alas_samping {
+    background: linear-gradient(to right, rgba(74, 72, 84, 1), rgba(2, 2, 3, 1));
+    height: 27px;
+    left: 995px;
+    position: absolute;
+    top: 333px;
+    width: 21px;
+    transform: skewY(-28deg);
+}
+
 
 .container,
 .container-fluid,
