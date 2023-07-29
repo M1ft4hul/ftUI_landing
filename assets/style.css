@@ -33,13 +33,6 @@
 }
 
 .overlap-group-container {
-    /* background-image: url('img/bg.jpeg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    position: relative;
-    width: 100%; */
     position: absolute;
     top: 0;
     left: 0;
