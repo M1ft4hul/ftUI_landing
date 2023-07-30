@@ -453,7 +453,36 @@ Primary use:
   right: 30px;
 }
 
+
+
+.sponsored-container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sponsored-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sponsored-logo {
+  display: inline-block;
+  margin: 0 10px;
+  max-width: 100px;
+  height: auto;
+}
+
 @media (max-width: 768px) {
+  .sponsored-logos {
+    flex-direction: column;
+  }
+
+  .sponsored-logo {
+    margin: 10px 0 5px 0;
+  }
+
   .slide img {
     height: 30vh;
   }
