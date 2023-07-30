@@ -10,24 +10,64 @@
     <link rel="stylesheet" type="text/css" href="assets/util.css">
     <link rel="stylesheet" type="text/css" href="assets/main.css">
     <!--===============================================================================================-->
+
+    <!-- <style>
+        .slide-container {
+            width: 340px;
+            max-height: 640px;
+            padding-top: 40px;
+            padding-bottom: 100px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide {
+            width: 340px;
+            max-height: 640px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .slider-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .slider-button-next {
+            right: 10px;
+        }
+
+        .slider-button-prev {
+            left: 10px;
+        }
+    </style> -->
 </head>
 
 <body>
 
 
     <div class="bg-img1 size1 overlay1 p-t-24">
-
-        <div class="flex-w flex-sa p-r-200 respon1">
-            <div class="p-t-34 p-b-60 respon3">
-                <p class="l1-txt1 p-b-10 respon2">
-                    Our website is
-                </p>
-
-                <h3 class="l1-txt2 p-b-45 respon2 respon4">
-                    Coming Soon
-                </h3>
+        <div class="flex-c flex-sa p-r-300 respon1">
+            <div class="wsize1">
+                <div class="slider-container">
+                    <div class="slide"><img src="assets/img/10224857.jpg" alt="Gambar 1"></div>
+                    <div class="slide"><img src="assets/img/7808293.jpg" alt="Gambar 2"></div>
+                    <div class="slide"><img src="assets/img/bg2.jpeg" alt="Gambar 3"></div>
+                </div>
+                <button onclick="prevSlide()">Prev</button>
+                <button onclick="nextSlide()">Next</button>
             </div>
-            <div class="p-l-240 p-r-45 p-t-15 p-b-20 p-lr-15-sm">
+
+            <div class="p-l-95 p-r-45 p-t-15 p-b-20 p-lr-15-sm">
                 <button class="flex-c-m size2 s1-txt2 how-btn1 trans-04">
                     Log in
                 </button>
@@ -58,7 +98,32 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+        const sliderContainer = document.querySelector('.slider-container');
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
 
+        function showSlide(slideIndex) {
+            if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            } else if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+
+            sliderContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+            currentSlide = slideIndex;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        setInterval(nextSlide, 3000); // Ubah angka 3000 menjadi durasi per slide dalam milidetik (misalnya 5000 untuk 5 detik)
+    </script>
 </body>
 
 </html>
