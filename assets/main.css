@@ -431,7 +431,7 @@ Primary use:
 
 .slide img {
   width: 100%;
-  height: 65vh;
+  height: 42vh;
 }
 
 @media (max-width: 768px) {
