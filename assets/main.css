@@ -460,6 +460,10 @@ Primary use:
   padding: 20px 0;
 }
 
+.sponsored-container p {
+  color: #000;
+}
+
 .sponsored-logos {
   display: flex;
   justify-content: center;
@@ -467,7 +471,16 @@ Primary use:
   margin-top: 10px;
 }
 
+.sponsor {
+  background-color: #fff;
+  width: 150px;
+  margin: 0 10px;
+  height: 80px;
+  border-radius: 10px;
+}
+
 .sponsored-logo {
+  padding-top: 10px;
   display: inline-block;
   margin: 0 10px;
   max-width: 100px;
@@ -479,7 +492,7 @@ Primary use:
     flex-direction: column;
   }
 
-  .sponsored-logo {
+  .sponsor {
     margin: 10px 0 5px 0;
   }
 
