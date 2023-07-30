@@ -434,6 +434,25 @@ Primary use:
   height: 42vh;
 }
 
+.arrow-button {
+  position: absolute;
+  top: 78%;
+  transform: translateY(-50%);
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.arrow-button.prev {
+  left: 30px;
+}
+
+.arrow-button.next {
+  right: 30px;
+}
+
 @media (max-width: 768px) {
   .slide img {
     height: 30vh;
