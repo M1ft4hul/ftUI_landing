@@ -510,6 +510,30 @@ Primary use:
   }
 }
 
+@media (min-width:1400px) {
+  .wsize1 {
+    width: 600px;
+    height: 280px;
+    top: -240px;
+    left: -60px;
+  }
+
+  .slide img {
+    height: 30vh;
+  }
+
+  .p-b-0{
+    padding-bottom: 190px;
+  }
+
+  /* tombol */
+  .m-t-10{
+    margin-top: 180px;
+  }
+
+}
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Height ]*/
 
