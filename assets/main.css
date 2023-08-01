@@ -489,6 +489,8 @@ Primary use:
   height: auto;
 }
 
+@media (min-width:576px) {}
+
 @media (max-width: 768px) {
   .sponsored-logos {
     flex-direction: column;
@@ -511,6 +513,7 @@ Primary use:
 }
 
 @media (min-width:1400px) {
+  /* slider */
   .wsize1 {
     width: 600px;
     height: 280px;
@@ -522,6 +525,7 @@ Primary use:
     height: 30vh;
   }
 
+  /* sponsor */
   .p-b-0{
     padding-bottom: 190px;
   }
@@ -532,6 +536,8 @@ Primary use:
   }
 
 }
+
+@media (min-width:1200px) {}
 
 
 /*//////////////////////////////////////////////////////////////////
