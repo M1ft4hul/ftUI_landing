@@ -498,6 +498,13 @@ Primary use:
     margin: 10px 0 5px 0;
   }
 
+  .wsize1 {
+    width: 350px;
+    height: 250px;
+    top: -10px;
+    left: -1px;
+  }
+
   .slide img {
     height: 30vh;
   }
