@@ -1300,26 +1300,16 @@ progress {
         border-radius: 50px;
         border: none;
         outline: none;
-        height: 36px;
-        left: 104px;
+        height: 39px;
+        left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 162px;
-        width: 120px;
+        top: 230px;
+        width: 160px;
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
     
-    }
-    
-    .rectangle:hover {
-        background-color: #f7d61d
-    }
-    
-    .rectangle:active {
-        background-color: #f7d61d;
-        box-shadow: 0 1px #cecece;
-        transform: translateY(4px);
     }
     
     /* tombol Career */
@@ -1328,26 +1318,16 @@ progress {
         border-radius: 50px;
         border: none;
         outline: none;
-        height: 36px;
-        left: 104px;
+        height: 39px;
+        left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 206px;
-        width: 120px;
+        top: 280px;
+        width: 160px;
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
     
-    }
-    
-    .rectangle1:hover {
-        background-color: #f7d61d
-    }
-    
-    .rectangle1:active {
-        background-color: #f7d61d;
-        box-shadow: 0 1px #cecece;
-        transform: translateY(4px);
     }
     
     /* tombol Apply */
@@ -1356,54 +1336,34 @@ progress {
         border-radius: 50px;
         border: none;
         outline: none;
-        height: 36px;
-        left: 104px;
+        height: 39px;
+        left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 250px;
-        width: 120px;
+        top: 330px;
+        width: 160px;
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
     
     }
-    
-    .rectangle2:hover {
-        background-color: #f7d61d
-    }
-    
-    .rectangle2:active {
-        background-color: #f7d61d;
-        box-shadow: 0 1px #cecece;
-        transform: translateY(4px);
-    }
-    
+
     /* tombol Ask Us */
     .rectangle3 {
         background-color: #FFD300;
         border-radius: 50px;
         border: none;
         outline: none;
-        height: 36px;
-        left: 104px;
+        height: 39px;
+        left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 294px;
-        width: 120px;
+        top: 381px;
+        width: 160px;
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
     
-    }
-    
-    .rectangle3:hover {
-        background-color: #f7d61d
-    }
-    
-    .rectangle3:active {
-        background-color: #f7d61d;
-        box-shadow: 0 1px #cecece;
-        transform: translateY(4px);
     }
     
 }
