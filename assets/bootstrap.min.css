@@ -1436,12 +1436,12 @@ progress {
         transform: skewY(3deg);
         z-index: 5;
     }
-    
+
     .papan_nama_meja img {
         height: 160px;
         width: 479px;
     }
-    
+
     .media-box {
         background-color: rgba(218, 228, 244, 1);
         height: 192px;
@@ -1456,16 +1456,139 @@ progress {
         border-style: solid;
     }
 
-    .media-box video{
+    .media-box video {
         width: 330px;
         height: 186px;
     }
 
-    .vector-container {
-        height: 360px;
+    .tiang_tegak {
+        background-color: #3D3BA0;
+        height: 320px;
+        width: 16px;
         position: absolute;
-        top: 174px;
-        width: 203px;
+        top: 180px;
+        left: 1289px;
+        z-index: 4;
+    }
+
+    .tiang_banner {
+        background-color: #3D3BA0;
+        height: 333px;
+        width: 16px;
+        position: absolute;
+        top: 288px;
+        left: 1289px;
+        transform: skewY(-20deg);
+        z-index: 5;
+    }
+
+    .banner {
+        background-color: #CAD1E2;
+        height: 400px;
+        left: 1090px;
+        position: absolute;
+        top: 220px;
+        width: 200px;
+        transform: skewY(3deg);
+        z-index: 1;
+    }
+
+    .banner_tegak {
+        background-color: #CAD1E2;
+        height: 435px;
+        left: 1090px;
+        position: absolute;
+        top: 180px;
+        width: 200px;
+        z-index: 2;
+    }
+    
+    .banner_tegak img {
+        height: 435px;
+        width: 200px;
+        transform: skewY(1deg);
+    }
+
+    .alas_banner {
+        background-color: #2B2930;
+        height: 22px;
+        width: 260px;
+        position: absolute;
+        top: 600px;
+        left: 1060px;
+        transform-origin: bottom left;
+        transform: skewX(-61deg) skewY(3deg);
+    }
+
+    .alas_depan {
+        background-color: #4A4854;
+        height: 34px;
+        left: 1060px;
+        position: absolute;
+        top: 627px;
+        width: 235px;
+        transform: skewY(3deg);
+    }
+
+    .alas_samping {
+        background: linear-gradient(to right, rgba(74, 72, 84, 1), rgba(2, 2, 3, 1));
+        height: 34px;
+        left: 1294px;
+        position: absolute;
+        top: 623px;
+        width: 40px;
+        transform: skewY(-28deg);
+    }
+    
+    .right-button {
+        background-color: #FFD300;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 39px;
+        left: 1294px;
+        cursor: pointer;
+        position: absolute;
+        top: 791px;
+        width: 39px;
+        z-index: 6;
+        text-decoration: none;
+        box-shadow: 0 5px #cecece;
+    
+    }
+
+    .left-button {
+        background-color: #FFD300;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 39px;
+        left: 1060px;
+        cursor: pointer;
+        position: absolute;
+        top: 794px;
+        width: 39px;
+        z-index: 6;
+        text-decoration: none;
+        box-shadow: 0 5px #cecece;
+    
+    }
+
+    .rectangle4 {
+        background-color: #FFD300;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 39px;
+        left: 1120px;
+        cursor: pointer;
+        position: absolute;
+        top: 792px;
+        width: 150px;
+        z-index: 6;
+        text-decoration: none;
+        box-shadow: 0 5px #cecece;
+    
     }
 }
 
