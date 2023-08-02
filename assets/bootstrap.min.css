@@ -1164,7 +1164,7 @@ progress {
 
 @media (min-width:1200px) {
     .overlap-group4 {
-        top: 60px;
+        top: 65px;
         left: 170px;
     }
 
@@ -1173,7 +1173,7 @@ progress {
         min-width: 86px;
         padding: 5px 19px;
         position: absolute;
-        top: 160px;
+        top: 100px;
         left: 160px;
         height: 360px;
     }
