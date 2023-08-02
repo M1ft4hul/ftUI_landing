@@ -655,7 +655,7 @@ progress {
 .overlap-group4 {
     /* left: 70px; */
     position: absolute;
-    top: 21px;
+    top: 60px;
 }
 
 .tiang_atas {
@@ -957,7 +957,7 @@ progress {
     min-width: 86px;
     padding: 5px 19px;
     position: absolute;
-    top: 81px;
+    top: 125px;
     height: 360px;
 }
 
@@ -1045,8 +1045,9 @@ progress {
 .vector-container {
     height: 360px;
     position: absolute;
-    top: 174px;
+    top: 210px;
     width: 203px;
+    left: 140px;
 }
 
 .tiang_banner {
