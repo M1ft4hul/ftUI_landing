@@ -1309,9 +1309,9 @@ progress {
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
-    
+
     }
-    
+
     /* tombol Career */
     .rectangle1 {
         background-color: #FFD300;
@@ -1327,9 +1327,9 @@ progress {
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
-    
+
     }
-    
+
     /* tombol Apply */
     .rectangle2 {
         background-color: #FFD300;
@@ -1345,7 +1345,7 @@ progress {
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
-    
+
     }
 
     /* tombol Ask Us */
@@ -1363,9 +1363,110 @@ progress {
         z-index: 6;
         text-decoration: none;
         box-shadow: 0 5px #cecece;
-    
+    }
+
+    .dinding_layar {
+        background: linear-gradient(to right, rgba(218, 228, 244, 1), rgba(189, 195, 208, 1));
+        height: 620px;
+        left: 486px;
+        position: absolute;
+        top: 60px;
+        width: 497px;
+        transform: skewY(3deg);
+
+    }
+
+    .alas_atas_meja {
+        height: 30px;
+        left: 600px;
+        position: absolute;
+        top: 461px;
+        width: 504px;
+        z-index: 2;
+    }
+
+    .lis_meja {
+        height: 30px;
+        left: 600px;
+        position: absolute;
+        top: 470px;
+        width: 504px;
+        z-index: 3;
+    }
+
+    .tiang_meja_kanan {
+        background-color: #26268F;
+        height: 233px;
+        left: 1060px;
+        position: absolute;
+        top: 493px;
+        width: 44px;
+        transform: skewY(-20deg);
+    }
+
+    .tiang_meja_depan {
+        background-color: #21217E;
+        height: 133px;
+        left: 608px;
+        position: absolute;
+        top: 589px;
+        width: 454px;
+        transform: skewY(3deg);
+        z-index: 2;
+    }
+
+    .tiang_meja_depan2 {
+        background-color: #21217E;
+        height: 220px;
+        left: 608px;
+        position: absolute;
+        top: 482px;
+        width: 454px;
+        z-index: 1;
+    }
+
+    .papan_nama_meja {
+        background-color: #D9D9D9;
+        height: 160px;
+        left: 595px;
+        position: absolute;
+        top: 504px;
+        width: 479px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.20));
+        transform: skewY(3deg);
+        z-index: 5;
     }
     
+    .papan_nama_meja img {
+        height: 160px;
+        width: 479px;
+    }
+    
+    .media-box {
+        background-color: rgba(218, 228, 244, 1);
+        height: 192px;
+        left: 570px;
+        position: absolute;
+        top: 160px;
+        width: 330px;
+        margin: 30px auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+        overflow: hidden;
+        border-radius: 10px;
+        border-style: solid;
+    }
+
+    .media-box video{
+        width: 330px;
+        height: 186px;
+    }
+
+    .vector-container {
+        height: 360px;
+        position: absolute;
+        top: 174px;
+        width: 203px;
+    }
 }
 
 .row {
