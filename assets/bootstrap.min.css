@@ -1137,30 +1137,6 @@ progress {
 }
 
 
-/* saya */
-@media (max-height: 1300px) {
-    .overlap-group4 {
-        top: 10px;
-        left: 70px;
-    }
-
-    .overlap-group3 {
-        align-items: flex-start;
-        min-width: 86px;
-        padding: 5px 19px;
-        position: absolute;
-        top: 81px;
-        height: 360px;
-    }
-
-    .vector-container {
-        height: 360px;
-        position: absolute;
-        top: 174px;
-        width: 203px;
-    }
-}
-
 /* samsul */
 @media (min-width:1200px) {
     .overlap-group4 {
