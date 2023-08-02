@@ -1140,9 +1140,8 @@ progress {
 /* saya */
 @media (max-height: 1300px) {
     .overlap-group4 {
-        /* left: 70px; */
-        position: absolute;
-        top: 21px;
+        top: 10px;
+        left: 70px;
     }
 
     .overlap-group3 {
