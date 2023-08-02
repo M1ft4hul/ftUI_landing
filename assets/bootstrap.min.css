@@ -1137,8 +1137,29 @@ progress {
 }
 
 
-@media (max-height: 600px) {
-    
+@media (max-height: 1000px) {
+    .overlap-group4 {
+        top: 50px;
+        left: 170px;
+    }
+
+    .overlap-group3 {
+        align-items: flex-start;
+        min-width: 86px;
+        padding: 5px 19px;
+        position: absolute;
+        top: 160px;
+        left: 160px;
+        height: 360px;
+    }
+
+    .vector-container {
+        height: 360px;
+        position: absolute;
+        left: 170px;
+        top: 240px;
+        width: 203px;
+    }
 }
 
 @media (min-width:1200px) {
