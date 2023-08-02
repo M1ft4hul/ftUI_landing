@@ -1136,8 +1136,8 @@ progress {
 }
 
 /* samsul */
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .overlap-group4 {
+@media (min-width: 1200px) {
+    /* .overlap-group4 {
         top: 65px;
         left: 170px;
     }
@@ -1158,12 +1158,12 @@ progress {
         left: 170px;
         top: 200px;
         width: 203px;
-    }
+    } */
 
 }
 
 /* komputer */
-@media (min-width:1400px) {
+@media (min-width:1400px)  {
     .overlap-group4 {
         top: 60px;
         left: 120px;
