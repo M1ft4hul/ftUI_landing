@@ -1164,7 +1164,28 @@ progress {
 
 /* samsul */
 @media (min-width:1200px) {
-    
+    .overlap-group4 {
+        top: 65px;
+        left: 170px;
+    }
+
+    .overlap-group3 {
+        align-items: flex-start;
+        min-width: 86px;
+        padding: 5px 19px;
+        position: absolute;
+        top: 110px;
+        left: 160px;
+        height: 360px;
+    }
+
+    .vector-container {
+        height: 360px;
+        position: absolute;
+        left: 170px;
+        top: 200px;
+        width: 203px;
+    }
 
 }
 
