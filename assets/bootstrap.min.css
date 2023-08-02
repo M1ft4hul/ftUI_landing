@@ -1157,12 +1157,6 @@ progress {
     .container-sm {
         max-width: 540px
     }
-
-    .overlap-group4 {
-        /* left: 70px; */
-        position: absolute;
-        top: 40px;
-    }
 }
 
 @media (min-width:768px) {
