@@ -1158,8 +1158,10 @@ progress {
         max-width: 540px
     }
 
-    .overlap-group4{
-        top: 200px;
+    .overlap-group4 {
+        /* left: 70px; */
+        position: absolute;
+        top: 40px;
     }
 }
 
