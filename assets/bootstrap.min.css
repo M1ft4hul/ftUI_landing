@@ -1173,7 +1173,7 @@ progress {
         min-width: 86px;
         padding: 5px 19px;
         position: absolute;
-        top: 100px;
+        top: 110px;
         left: 160px;
         height: 360px;
     }
@@ -1182,7 +1182,7 @@ progress {
         height: 360px;
         position: absolute;
         left: 170px;
-        top: 240px;
+        top: 200px;
         width: 203px;
     }
 
