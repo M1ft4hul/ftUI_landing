@@ -1,21 +1,1225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mainhall Web</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MainHall</title>
+
+    <!-- <link rel="shortcut icon" href="https://ecif.eng.ui.ac.id/assets/user/images/ecif-putih.png" type="image/x-icon"> -->
+
+    <!-- <link rel="stylesheet" href="https://ecif.eng.ui.ac.id/assets/user/css/flaticon/flaticon.css"> -->
+    <link rel="stylesheet" href="https://ecif.eng.ui.ac.id/assets/user/css/bootstrap/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://ecif.eng.ui.ac.id/assets/user/css/owl-carousel/owl.carousel.min.css"> -->
+
+
+    <!-- fontAW -->
+    <script src="https://kit.fontawesome.com/5cc5353839.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://ecif.eng.ui.ac.id/assets/user/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="https://ecif.eng.ui.ac.id/assets/admin/css/custom.css"> -->
+
+
+    <style>
+        .job-list {
+            /* border: 1px solid #cccccc !important; */
+            border: 1px solid #001935 !important;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/img/bsi.png" alt="Company Logo">
-            <h1>Company Name</h1>
-        </div>
-        <div class="booth">
-            <a href="#" class="booth-btn">Booth</a>
-        </div>
+    <!--=================================
+        Header -->
+    <header class="header bg-dark" style="padding: 0 !important;">
+        <nav class="navbar navbar-static-top navbar-expand-lg">
+            <div class="container-fluid">
+                <button id="nav-icon4" type="button" class="navbar-toggler" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="navbar-brand" href="https://ecif.eng.ui.ac.id">
+                    <img class="img-fluid" src="https://ecif.eng.ui.ac.id/long-logo.png" alt="logo"
+                        style="width: 50x; height: 50px">
+                </a>
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://ecif.eng.ui.ac.id">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/register/member" class="nav-link">Register</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/schedule" class="nav-link">Schedule</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="https://ecif.eng.ui.ac.id/map" class="nav-link">Main Hall</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/faq" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://ecif.eng.ui.ac.id/offlane" class="nav-link">Offline</a>
+                        </li>
+                    </ul>
+                    <div class="add-listing d-flex align-items-center justify-content-center"
+                        style="transform: translateX(100px)">
+                        <div class="login d-inline-block mr-4 ml-5">
+                            <a href="https://ecif.eng.ui.ac.id/login"><i class="far fa-user pr-2"></i>Sign in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!-- Your main content goes here -->
+    <!--=================================
+  Header --> <!--=================================
+        End Header -->
+
+    <!--=================================
+inner banner -->
+    <div class="header-inner bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-primary">Main Hall</h2>
+                    <ol class="breadcrumb mb-0 p-0">
+                        <li class="breadcrumb-item"><a href="https://ecif.eng.ui.ac.id"> Home </a></li>
+                        <li class="breadcrumb-item active"> <i class="fas fa-chevron-right"></i> <span> Main Hall
+                            </span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================================
+  inner banner -->
+
+    <!--=================================
+Millions of jobs -->
+    <section class="space-ptb">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="my-3 text-center">Sponsored by</h3>
+                    <!-- <div class="d-flex justify-content-center align-items-center">
+          <div class="mx-3 d-flex align-items-center">
+            <img class="img-fluid" src="https://ecif.eng.ui.ac.id/assets/user/images/paragon.png" alt="logo" style="width: 200px; z-index:99;">
+          </div>
+          <div class="mx-3 d-flex align-items-center">
+            <img class="img-fluid" src="https://ecif.eng.ui.ac.id/assets/user/images/astra.png" alt="logo" style="width: 300px; z-index:99;">
+          </div>
+          <div class="mx-3 d-flex align-items-center">
+            <img class="img-fluid" src="https://ecif.eng.ui.ac.id/assets/user/images/starborn.png" alt="logo" style="width: 200px; z-index:99;">
+          </div>
+          <div class="mx-3 d-flex align-items-center">
+            <img class="img-fluid" src="https://ecif.eng.ui.ac.id/assets/user/images/philips.png" alt="logo" style="width: 200px; z-index:99;">
+          </div>
+        </div> -->
+                </div>
+
+
+                <!-- <span>
+        First Class
+        <hr class="line-map" />
+      </span>
+
+      <div class="col-md-12 mt-5">
+        <div class="row justify-content-center align-items-stretch">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+      </div> -->
+
+                <span>
+                    <!-- Diamond -->
+                    <hr class="line-map" />
+                </span>
+
+                <div class="col-md-12 mt-5">
+                    <div class="row justify-content-center align-items-stretch">
+                        <div class="col-md-4 mb-5">
+                            <div class="row  job-grid mb-5">
+                                <div class="col-md-8">
+                                    <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                        <img class="w-100"
+                                            src="https://ecif.eng.ui.ac.id/company/1663228145_Logo Perusahaan - Virtual Booth.png"
+                                            alt="Career Development Center FTUI" alt="" style="object-fit: contain;">
+                                    </div>
+                                    <div class="job-list-title text-center mt-2">
+                                        <h5 class="mb-0">Career Development Center FTUI</h5>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="job-list-details">
+                                        <div class="job-list-info">
+                                            <div class="job-list-title">
+
+
+                                                <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                    data-toggle="modal" data-target="#modal-company-0">
+                                                    About
+                                                </button>
+
+
+                                                <a class="btn btn-primary btn-sm mt-2"
+                                                    href="https://ecif.eng.ui.ac.id/map/25">Booth</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="row  job-grid mb-5">
+                                <div class="col-md-8">
+                                    <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                        <img class="w-100"
+                                            src="https://ecif.eng.ui.ac.id/company/1662975745_Untitled design (6).png"
+                                            alt="PT Paragon Technology and Innovation" alt=""
+                                            style="object-fit: contain;">
+                                    </div>
+                                    <div class="job-list-title text-center mt-2">
+                                        <h5 class="mb-0">PT Paragon Technology and Innovation</h5>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="job-list-details">
+                                        <div class="job-list-info">
+                                            <div class="job-list-title">
+
+
+                                                <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                    data-toggle="modal" data-target="#modal-company-8">
+                                                    About
+                                                </button>
+
+
+                                                <a class="btn btn-primary btn-sm mt-2"
+                                                    href="https://ecif.eng.ui.ac.id/map/9">Booth</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span>
+                    <!-- PLATINUM -->
+                    <hr class="line-map" />
+                </span>
+                <hr style="width:100%;text-align:left;margin-left:0 ; height: 1px; background-color: #ff8a00;">
+                <div class="col-md-12 mt-5">
+                    <div class="row justify-content-center align-items-stretch">
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662975925_Untitled design (7).png"
+                                        alt="Bank Negara Indonesia" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h3 class="mb-0">Bank Negara Indonesia</h3>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-11">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/12">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="modal-company-11" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content p-3">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Bank Negara Indonesia</h4>
+                                                Bank Negara Indonesia atau BNI adalah sebuah institusi bank milik
+                                                pemerintah, dalam hal ini adalah perusahaan BUMN, di Indonesia
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span>
+                    <!-- GOLD -->
+                    <hr class="line-map" />
+                </span>
+                <hr style="width:100%;text-align:left;margin-left:0 ; height: 1px; background-color: #ff8a00;">
+                <div class="col-md-12 mt-5">
+                    <div class="row justify-content-center align-items-stretch">
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979665_Untitled design (18).png"
+                                        alt="Auto 2000" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Auto 2000</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-9">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/10">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="modal-company-9" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content p-3">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Auto 2000</h4>
+                                                Auto2000 Digiroom merupakan transformasi baru dari website
+                                                Auto2000.co.id yang kini menjadi e-commerce website untuk penjualan
+                                                mobil, suku cadang, dan aksesoris resmi Toyota di Indonesia. Berawal
+                                                dari jaringan jasa penjualan, perawatan, perbaikan dan penyediaan suku
+                                                cadang Toyota yang berdiri sejak tahun 1975 dengan nama Astra Motor
+                                                Sales, dan baru pada tahun 1989 berubah nama menjadi Auto2000 dengan
+                                                manajemen yang sudah ditangani sepenuhnya oleh PT. Astra International
+                                                Tbk.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979782_Untitled design (19).png"
+                                        alt="PT Toyota Astra Motor" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">PT Toyota Astra Motor</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-10">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/11">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="modal-company-10" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content p-3">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Toyota Astra Motor</h4>
+                                                PT. Toyota-Astra Motor is a leading automotive company in Indonesia. PT.
+                                                Toyota Astra Motor operates in the distribution and after-sales services
+                                                of Toyota automobiles. The company is the sole seller agent of Toyota
+                                                vehicles and Lexus in Indonesia. The company is a joint venture between
+                                                PT. Astra International Tbk. and Toyota Motor Corporation, Japan
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 160px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662985685_Untitled design (31).png"
+                                        alt="Huawei Technologies Co., Ltd." alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Huawei Technologies Co., Ltd.</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-20">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/21">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="modal-company-20" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content p-3">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Huawei Technologies Co., Ltd.</h4>
+                                                Huawei Technologies Co., Ltd. adalah sebuah perusahaan teknologi
+                                                multinasional yang berkantor pusat di Shenzhen, Guangdong, Tiongkok.
+                                                Perusahaan ini merancang, mengembangkan, dan menjual peralatan
+                                                telekomunikasi dan elektronik konsumen
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span>
+                    <!-- SILVER -->
+                    <hr class="line-map" />
+                </span>
+                <hr style="width:100%;text-align:left;margin-left:0 ; height: 1px; background-color: #ff8a00;">
+                <div class="col-md-12">
+                    <div class="row justify-content-center align-items-stretch">
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662978936_Untitled design (10).png"
+                                        alt="PT Astra Daihatsu Motor" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT Astra Daihatsu Motor</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-2">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/3">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-2" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Astra Daihatsu Motor</h4>
+                                                ADM is sole agent of Daihatsu in Indonesia and the manufacturer of
+                                                Daihatsu and Toyota vehicles component and other related business. With
+                                                Vision The best global company that makes people’s lives better through
+                                                mobility and connectivity and Mission Prioritizing people’s happiness,
+                                                safety, and quality through our strong culture and Inspiring people to
+                                                enhance their lives and go beyond their limits.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662978990_Untitled design (11).png"
+                                        alt="PT Mondelez Indonesia" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT Mondelez Indonesia</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-3">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/4">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-3" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Mondelez Indonesia</h4>
+                                                Mondelēz International empowers people to snack right in over 150
+                                                countries around the world. We&#039;re leading the future of snacking
+                                                with iconic global and local brands such as Oreo, belVita and LU
+                                                biscuits; Cadbury Dairy Milk, Milka and Toblerone chocolate; Sour Patch
+                                                Kids candy and Trident gum.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979262_Untitled design (14).png"
+                                        alt="PT Sayap Mas Utama (Wings Group)" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT Sayap Mas Utama (Wings Group)</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-4">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/5">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-4" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Sayap Mas Utama (Wings Group)</h4>
+                                                Wings Group is the largest-growing Fast Moving Consumer Goods company in
+                                                Indonesia.
+                                                By remaining innovative and delivering high-quality products for more
+                                                than 70 years, Wings honors its commitment to improve the standard of
+                                                lives of Indonesian consumers. We also keep expanding our business
+                                                globally through various brands such as Mie Sedaap, So Klin, Daia, Nuvo,
+                                                Top Coffee, and others.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979182_Untitled design (13).png"
+                                        alt="PT YKK AP Indonesia" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT YKK AP Indonesia</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-5">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/6">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-5" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT YKK AP Indonesia</h4>
+                                                PT YKK AP Indonesia is one of the affiliated Japanese manufacturing
+                                                company in YKK Group and was established on 24th September 1988. The
+                                                basic products of PT. YKK AP INDONESIA is finished goods of aluminum
+                                                extrusion which consist of the window, door, curtain wall, and bar
+                                                profiles. With a spirit of curiosity and exploration, we develop
+                                                architectural products of true value that connect people, the planet,
+                                                and the future. We want to create a better society, while remaining
+                                                committed to the art and technology that have always been fundamental to
+                                                architectural culture.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662984218_Untitled design (21).png"
+                                        alt="PT. Indonesia Epson Industry (IEI)" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT. Indonesia Epson Industry (IEI)</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-13">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/14">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-13" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT. Indonesia Epson Industry (IEI)</h4>
+                                                PT. Indonesia Epson Industry (IEI) is a leading printer manufacturing
+                                                company from Japan. We manufacture various models of EPSON printers.
+                                                During peak season more than 10,000 employees work in this factory to
+                                                produce more than 1 million printers in a month, and all are for export
+                                                market.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662984474_Untitled design (22).png"
+                                        alt="PT Arita Prima Indonesia Tbk" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT Arita Prima Indonesia Tbk</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-14">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/15">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-14" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Arita Prima Indonesia Tbk</h4>
+                                                PT ARITA PRIMA INDONESIA Tbk didirikan pada tahun 2000 di Jakarta,
+                                                Indonesia sebagaisebuah perusahaan yang bergerak di bidang impor,
+                                                distribusi, dan servis untuk produk valves, fittings, instrumentation
+                                                dan control. PT Arita Prima Indonesia Tbk merupakan Perusahaan valves
+                                                pertama dan satu – satunya yang menjadi GO PUBLIC di Indonesia.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662518299_Logo bekaert better together CYAN RGB1.JPG"
+                                        alt="PT Bekaert Indonesia" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">PT Bekaert Indonesia</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-15">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/16">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-15" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Bekaert Indonesia</h4>
+                                                Didirikan pada tahun 1880 di Belgia (Eropa). Spesialisasi dalam
+                                                transformasi kawat baja dan teknologi pelapisan (coating). Produsen
+                                                independen terbesar di dunia untuk produk kawat baja ditarik. Pelanggan
+                                                di lebih dari 120 negara dan di semua pasar dan sektor. Hampir 29.000
+                                                karyawan di seluruh dunia. Berkantor pusat di Belgia (Eropa).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 120px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1663212393_Logo Perusahaan - Virtual Booth.png"
+                                        alt="Y Ventures Group" alt="" style="object-fit: contain;">
+                                </div>
+
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h4 class="mb-0">Y Ventures Group</h4>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-23">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/24">Booth</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-23" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Y Ventures Group</h4>
+                                                Y Ventures Group, a publicly listed data driven e-commerce company based
+                                                out of Singapore. Capitalising on our data analytics capabilities, we
+                                                partner with the world’s leading brands to sell their products in
+                                                multiple countries across various channels
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span>
+                    <!-- BRONZE -->
+                    <hr class="line-map" />
+                </span>
+                <hr style="width:100%;text-align:left;margin-left:0 ; height: 1px; background-color: #ff8a00;">
+                <div class="col-md-12">
+                    <div class="row justify-content-center align-items-stretch">
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662978838_Untitled design (8).png"
+                                        alt="PT Salam Pacific Indonesia Lines" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">PT Salam Pacific Indonesia Lines</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-1">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/2">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-1" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Salam Pacific Indonesia Lines</h4>
+                                                Perjalanan kami bermula dari tahun 1970, dengan nama PT. SAMUDERA
+                                                PACIFIC, sebuah forwarding company antar pulau di Indonesia. Di 1980,
+                                                kapal pengangkut pertama kami menandai kebermulaan perusahaan pelayaran
+                                                nasional dengan nama PT. SAMUDERA PACIFIC INDAH RAYA. Dan akhirnya di
+                                                1984, memindahkan kantor operasional utama dari Samarinda ke Surabaya
+                                                dengan nama PT. SALAM PACIFIC INDONESIA LINES (SPIL).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979384_Untitled design (15).png"
+                                        alt="Revocommunity" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Revocommunity</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-6">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/7">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-6" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Revocommunity</h4>
+                                                Revocommunity Corp. was founded in April 2009 in Tokyo, Japan. We see
+                                                the high interest of foreign people, especially ASEAN, to work or
+                                                continue their education in Japan. Revocommunity supports students and
+                                                alumni of the best universities in ASEAN countries to work in Japan
+                                                through the ASEAN RECRUITING PROJECT program. This program targets
+                                                engineering and IT students from the best universities in ASEAN,
+                                                providing solutions in finding work, as well as providing Japanese
+                                                language training.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662979505_Untitled design (17).png"
+                                        alt="PT. Sentral Kreasi Kencana" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">PT. Sentral Kreasi Kencana</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-7">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/8">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-7" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT. Sentral Kreasi Kencana</h4>
+                                                A gold jewellery company with managing end-to-end product management
+                                                from product development, manufacturing, distribution, and marketing
+                                                under the champion brands Hala Gold and Sandra Dewi Gold that have been
+                                                distributed in national level. Not only successful in building new
+                                                brands and distribution networks but the company also successfully
+                                                changed the industry game with being the only gold jewelry factory in
+                                                Indonesia with certified gold content from SNI 8880:2020 by the Ministry
+                                                of Industry, the Republic of Indonesia with high-quality products
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662980263_Untitled design (20).png"
+                                        alt="PT Supernova Flexible Packaging" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">PT Supernova Flexible Packaging</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-12">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/13">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-12" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Supernova Flexible Packaging</h4>
+                                                Supernova is marketing its flexible packaging products worldwide with
+                                                its state-of-the-art equipment from cylinder making; multi-color
+                                                printing
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662984607_Untitled design (23).png"
+                                        alt="Chevening" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Chevening</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-16">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/17">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-16" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Chevening</h4>
+                                                Chevening Scholarships enable outstanding emerging leaders from all over
+                                                the world to pursue one-year master’s degrees in the UK. Whilst there is
+                                                no ‘typical’ Chevening Scholar, we are looking for the kind of people
+                                                who have the passion, ideas, and influence to provide the solutions and
+                                                leadership needed to create a better future.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662984956_Untitled design (24).png"
+                                        alt="AMINEF" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">AMINEF</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-17">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/18">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-17" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">AMINEF</h4>
+                                                The American Indonesian Exchange Foundation (AMINEF) is the binational
+                                                Fulbright Commission for Indonesia. For twenty-five years we have
+                                                carried forward the vision and mission of the Fulbright program in
+                                                Indonesia, which in 2017 celebrated its 65th anniversary. AMINEF’s many
+                                                programs for educational exchange have increased mutual understanding
+                                                between the United States and Indonesia and strengthened the ties that
+                                                unite our two countries. Since 1952, 2,815 Indonesians and 1,120
+                                                Americans have participated in exchanges. Approximately 80 percent of
+                                                the Indonesians received graduate degrees at the masters or doctoral
+                                                levels from American universities. The remaining 20 percent participated
+                                                in non-degree exchanges administered by AMINEF.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1662985306_Untitled design (28).png"
+                                        alt="PT Digital Inovasi Risiko" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">PT Digital Inovasi Risiko</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-18">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/19">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-18" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">PT Digital Inovasi Risiko</h4>
+                                                Ignis Fire &amp; Risk is a tech-based startup focused in Fire Safety
+                                                Engineering, and Risk Management Consulting Services. With the help of
+                                                technology and expertise in Fire Engineering &amp; Risk Management, we
+                                                have a wide range of products and services that can be used by various
+                                                business sectors
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1663140317_Logo Perusahaan - Virtual Booth.png"
+                                        alt="Inventing" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Inventing</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-19">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/20">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-19" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Inventing</h4>
+                                                Inventing adalah perusahaan rintisan yang menghasilkan produk printbox
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1663033292_Untitled design (4).png"
+                                        alt="Nuffic Neso" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Nuffic Neso</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-21">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/22">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-21" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Nuffic Neso</h4>
+                                                Neso Indonesia is the official representative in Indonesia for all
+                                                matters regarding Dutch higher education. We promote and provide
+                                                information on more than 2100 study programmes taught in English in the
+                                                Netherlands. We provide support scholarships specifically for Indonesian
+                                                students, such as StuNed and Orange Tulip Scholarship (OTS).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <div class="job-list job-grid h-100">
+                                <div class="job-list-logo d-flex justify-content-center" style="height: 100px;">
+                                    <img class="w-100"
+                                        src="https://ecif.eng.ui.ac.id/company/1663033803_Untitled design (7).png"
+                                        alt="Campus France" alt="" style="object-fit: contain;">
+                                </div>
+                                <div class="job-list-details">
+                                    <div class="job-list-info">
+                                        <div class="job-list-title">
+                                            <h5 class="mb-0">Campus France</h5>
+
+                                            <button type="button" class="btn btn-primary btn-sm mt-2"
+                                                data-toggle="modal" data-target="#modal-company-22">
+                                                About
+                                            </button>
+
+                                            <a class="btn btn-primary btn-sm mt-2"
+                                                href="https://ecif.eng.ui.ac.id/map/23">
+                                                Booth
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-company-22" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="text-center">
+                                                <h4 class="mb-3">Campus France</h4>
+                                                Campus France Indonesia menjadi bagian dari Institut Français
+                                                d’Indonésie dan Kedutaan Besar Prancis untuk Indonesia akan mendampingi
+                                                Anda untuk mewujudkan mimpi berkuliah di Prancis. Kami juga mengundang
+                                                Anda untuk berani bermimpi dan mewujudkannya menjadi nyata melalui
+                                                gerakan #MimpiAjaDulu.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="width:100%;text-align:left;margin-left:0 ; height: 1px; background-color: #ff8a00;">
+
+                <span>
+                    <!-- EXHIBITION -->
+                    <hr class="line-map" />
+                </span>
+
+                <div class="col-md-12">
+                    <div class="row justify-content-center align-items-stretch">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--=================================
+job-grid -->
+
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/jquery-3.4.1.min.js"></script>
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/popper/popper.min.js"></script>
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/owl-carousel/owl-carousel.min.js"></script>
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/jarallax/jarallax.min.js"></script>
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/jarallax/jarallax-video.min.js"></script>
+
+    <script src="https://ecif.eng.ui.ac.id/assets/user/js/custom.js"></script>
+
 </body>
+
 </html>
