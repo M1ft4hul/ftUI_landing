@@ -1428,7 +1428,7 @@ progress {
         left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 230px;
+        top: 200px;
         width: 160px;
         z-index: 6;
         text-decoration: none;
@@ -1446,7 +1446,7 @@ progress {
         left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 280px;
+        top: 251px;
         width: 160px;
         z-index: 6;
         text-decoration: none;
@@ -1464,7 +1464,7 @@ progress {
         left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 330px;
+        top: 302px;
         width: 160px;
         z-index: 6;
         text-decoration: none;
@@ -1482,7 +1482,7 @@ progress {
         left: 150px;
         cursor: pointer;
         position: absolute;
-        top: 381px;
+        top: 354px;
         width: 160px;
         z-index: 6;
         text-decoration: none;
