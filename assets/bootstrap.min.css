@@ -755,7 +755,7 @@ progress {
     left: 104px;
     cursor: pointer;
     position: absolute;
-    top: 162px;
+    top: 120px;
     width: 120px;
     z-index: 6;
     text-decoration: none;
@@ -783,7 +783,7 @@ progress {
     left: 104px;
     cursor: pointer;
     position: absolute;
-    top: 206px;
+    top: 167px;
     width: 120px;
     z-index: 6;
     text-decoration: none;
@@ -811,7 +811,7 @@ progress {
     left: 104px;
     cursor: pointer;
     position: absolute;
-    top: 250px;
+    top: 213px;
     width: 120px;
     z-index: 6;
     text-decoration: none;
@@ -839,7 +839,7 @@ progress {
     left: 104px;
     cursor: pointer;
     position: absolute;
-    top: 294px;
+    top: 260px;
     width: 120px;
     z-index: 6;
     text-decoration: none;
@@ -855,6 +855,76 @@ progress {
     background-color: #f7d61d;
     box-shadow: 0 1px #cecece;
     transform: translateY(4px);
+}
+
+.medsos {
+    height: 36px;
+    left: 110px;
+    position: absolute;
+    top: 310px;
+    width: 120px;
+    z-index: 6;
+}
+
+.medsos img {
+    height: 20px;
+    width: 20px;
+}
+
+.medsos1 {
+    height: 36px;
+    left: 110px;
+    position: absolute;
+    top: 331px;
+    width: 120px;
+    z-index: 6;
+}
+
+.medsos1 img {
+    height: 20px;
+    width: 20px;
+}
+
+.medsos2 {
+    height: 36px;
+    left: 110px;
+    position: absolute;
+    top: 354px;
+    width: 120px;
+    z-index: 6;
+}
+
+.medsos2 img {
+    height: 20px;
+    width: 20px;
+}
+
+.medsos3 {
+    height: 36px;
+    left: 110px;
+    position: absolute;
+    top: 379px;
+    width: 120px;
+    z-index: 6;
+}
+
+.medsos3 img {
+    height: 20px;
+    width: 20px;
+}
+
+.medsos4 {
+    height: 36px;
+    left: 110px;
+    position: absolute;
+    top: 402px;
+    width: 120px;
+    z-index: 6;
+}
+
+.medsos4 img {
+    height: 20px;
+    width: 20px;
 }
 
 .dinding_layar {
@@ -1137,7 +1207,7 @@ progress {
 
 /* samsul */
 @media (min-width: 1200px) {
-    .overlap-group4 {
+    /* .overlap-group4 {
         top: 65px;
         left: 170px;
     }
@@ -1158,12 +1228,12 @@ progress {
         left: 170px;
         top: 200px;
         width: 203px;
-    }
+    } */
 
 }
 
 /* komputer */
-@media (min-width:1400px)  {
+@media (min-width:1400px) {
     .overlap-group4 {
         top: 60px;
         left: 120px;
@@ -1346,6 +1416,14 @@ progress {
         text-decoration: none;
         box-shadow: 0 5px #cecece;
     }
+
+    /* .medsos {
+        width: 42px;
+        height: 42px;
+        left: 150px;
+        top: 381px;
+        z-index: 6;
+    } */
 
     .dinding_layar {
         background: linear-gradient(to right, rgba(218, 228, 244, 1), rgba(189, 195, 208, 1));
