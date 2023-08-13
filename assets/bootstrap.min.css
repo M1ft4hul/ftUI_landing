@@ -686,6 +686,20 @@ progress {
     .media-box {
         left: 500px;
     }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 500px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 @media (min-width: 374px) {
@@ -711,6 +725,20 @@ progress {
     .dinding_layar {
         left: 500px;
     }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 500px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 /* iphone 12 pro */
@@ -730,6 +758,15 @@ progress {
     .media-box {
         left: 500px;
     }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 @media (min-width: 412px) {
@@ -744,6 +781,10 @@ progress {
     .tiang_samping2 {
         left: 319px;
     }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 @media (min-width: 401px) {
@@ -757,6 +798,15 @@ progress {
 
     .tiang_samping2 {
         left: 308px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
     }
 }
 
@@ -776,6 +826,15 @@ progress {
 
     .dinding_layar {
         left: 500px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
     }
 }
 
@@ -800,6 +859,15 @@ progress {
     .media-box {
         left: 500px;
     }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 /* web minimaise */
@@ -814,6 +882,15 @@ progress {
 
     .atas_kiri {
         left: 370px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
     }
 }
 
@@ -833,6 +910,24 @@ progress {
 
     .dinding_layar {
         left: 700px;
+    }
+
+    .media-box {
+        left: 700px;
+    }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 700px;
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
     }
 }
 
@@ -858,6 +953,15 @@ progress {
     .media-box {
         left: 800px;
     }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 800px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 /* Samsung Galaxy Fold */
@@ -873,6 +977,10 @@ progress {
     .atas_kiri {
         left: 522px;
     }
+
+    .papan_nama_meja {
+        left: 900px;
+    }
 }
 
 /* Samsung Galaxy S8+ */
@@ -887,6 +995,15 @@ progress {
 
     .atas_kiri {
         left: 538px;
+    }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 900px;
+    }
+
+    .papan_nama_meja {
+        left: 900px;
     }
 }
 
@@ -914,6 +1031,23 @@ progress {
 
     .media-box {
         left: 450px;
+        /* Posisi untuk layar desktop */
+    }
+
+    .tiang_meja_depan,
+    .tiang_meja_depan2 {
+        left: 430px;
+        /* Posisi untuk layar desktop */
+    }
+
+    .lis_meja,
+    .alas_atas_meja {
+        left: 425px;
+        /* Posisi untuk layar desktop */
+    }
+
+    .papan_nama_meja {
+        left: 422px;
         /* Posisi untuk layar desktop */
     }
 }
@@ -973,6 +1107,46 @@ progress {
 
     /* responsif */
     .media-box {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* reponsif */
+    .tiang_meja_depan {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* responsif */
+    .tiang_meja_depan2 {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* responsif */
+    .lis_meja {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* responsif */
+    .alas_atas_meja {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* responsif */
+    .papan_nama_meja {
         right: 0;
         transform: none;
         max-width: 70%;
@@ -1287,11 +1461,10 @@ progress {
     border-style: solid;
 }
 
-/* tiang meja depan */
+/* responsif */
 .tiang_meja_depan {
     background-color: #21217E;
     height: 137px;
-    left: 430px;
     position: absolute;
     top: 403px;
     width: 368px;
@@ -1299,10 +1472,10 @@ progress {
     z-index: 4;
 }
 
+/* responsif */
 .tiang_meja_depan2 {
     background-color: #21217E;
     height: 137px;
-    left: 430px;
     position: absolute;
     top: 356px;
     width: 368px;
@@ -1319,29 +1492,28 @@ progress {
     transform: skewY(-20deg);
 }
 
-
+/* responsif */
 .lis_meja {
     height: 16px;
-    left: 425px;
     position: absolute;
     top: 350px;
     width: 403px;
     z-index: 3;
 }
 
+/* responsif */
 .alas_atas_meja {
     height: 16px;
-    left: 425px;
     position: absolute;
     top: 345px;
     width: 404px;
     z-index: 2;
 }
 
+/* responsif */
 .papan_nama_meja {
     background-color: #D9D9D9;
     height: 135px;
-    left: 422px;
     position: absolute;
     top: 375px;
     width: 382px;
