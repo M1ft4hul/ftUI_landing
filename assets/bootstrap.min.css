@@ -980,14 +980,6 @@ progress {
     }
 }
 
-.overlap-group4 {
-    position: absolute;
-    top: 90px;
-    left: 16px;
-    height: 42px;
-    width: 100px;
-}
-
 /* responsif */
 .tiang_atas {
     background-color: #2c3694;
@@ -1375,7 +1367,13 @@ progress {
 
 
 
-
+.overlap-group4 {
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    height: 42px;
+    width: 100px;
+}
 
 .overlap-group3 {
     align-items: flex-start;
