@@ -682,6 +682,10 @@ progress {
     .dinding_layar {
         left: 400px;
     }
+
+    .media-box {
+        left: 500px;
+    }
 }
 
 @media (min-width: 374px) {
@@ -703,7 +707,7 @@ progress {
     .tiang_samping2 {
         left: 291px;
     }
-    
+
     .dinding_layar {
         left: 500px;
     }
@@ -721,6 +725,10 @@ progress {
 
     .tiang_samping2 {
         left: 303px;
+    }
+
+    .media-box {
+        left: 500px;
     }
 }
 
@@ -788,6 +796,10 @@ progress {
     .dinding_layar {
         left: 500px;
     }
+
+    .media-box {
+        left: 500px;
+    }
 }
 
 /* web minimaise */
@@ -842,6 +854,10 @@ progress {
     .dinding_layar {
         left: 800px;
     }
+
+    .media-box {
+        left: 800px;
+    }
 }
 
 /* Samsung Galaxy Fold */
@@ -893,6 +909,12 @@ progress {
 
     .dinding_layar {
         left: 400px;
+        /* Posisi untuk layar desktop */
+    }
+
+    .media-box {
+        left: 450px;
+        /* Posisi untuk layar desktop */
     }
 }
 
@@ -943,6 +965,14 @@ progress {
 
     /* responsif */
     .dinding_layar {
+        right: 0;
+        transform: none;
+        max-width: 70%;
+        position: relative;
+    }
+
+    /* responsif */
+    .media-box {
         right: 0;
         transform: none;
         max-width: 70%;
@@ -1251,19 +1281,19 @@ progress {
 
 }
 
-/* .media-box {
+/* responsif */
+.media-box {
     background-color: rgba(218, 228, 244, 1);
     height: 136px;
-    left: 370px;
     position: absolute;
-    top: 80px;
+    top: 170px;
     width: 235px;
     margin: 30px auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
     overflow: hidden;
     border-radius: 10px;
     border-style: solid;
-} */
+}
 
 /* tiang meja depan */
 /* .tiang_meja_depan {
